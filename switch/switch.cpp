@@ -21,6 +21,13 @@ int perkalian(int a, int b)
 float pembagian(float a, float b) {
     return a / b;
 }
+
+void inputData() {
+    cout << "/nMasukkan bilangan pertama :";
+    cin >> bilangan1;
+    cout << "Masukkan bilangan kedua :";
+    cin >> bilangan2;
+}
 int main()
 {
    
