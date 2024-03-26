@@ -8,6 +8,10 @@ void prosedureLuas(int p, int l) {
 
 }
 
+int fungsiLuas(int p, int l) {
+    return p * l;
+}
+
 int main()
 {
     int panjang, lebar;
@@ -19,6 +23,7 @@ int main()
     prosedureLuas(panjang, lebar);
     cout << "Luas persegi panjang dengan prosedur :" << luas << endl;
 
+    cout << "Luas persegi panjang dengan fungsi :" << fungsiLuas(panjang, lebar) << endl;
 
     return 0;
 }
