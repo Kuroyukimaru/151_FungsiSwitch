@@ -28,7 +28,18 @@ void inputData() {
     cout << "Masukkan bilangan kedua :";
     cin >> bilangan2;
 }
+
 int main()
 {
-   
+    int pilihan;
+
+        cout << "Menu Kalkulator Sederhana" << endl;
+        cout << "1. Penjumlahan" << endl;
+        cout << "2. pengurangan" << endl;
+        cout << "3. perkalian" << endl;
+        cout << "4. pembagian" << endl;
+        cout << "5. Keluar" << endl;
+        cin >> pilihan;
+
+       
 }
